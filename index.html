@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luke Nevins</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=MuseoModerno:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700;800&family=Righteous&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="site-wrapper">
+
+    <!-- ═══════════════ BIO PANEL ═══════════════ -->
+    <aside class="bio-panel">
+      <div class="bio-panel__inner">
+
+        <img src="Picsss/wild%20side.JPEG" alt="Luke Nevins" class="avatar">
+
+        <h1 class="bio-name">Luke Nevins<span class="name-tooltip">yea...that's my name!</span></h1>
+        <p class="bio-tagline">student. friend. B Corp enthusiast.</p>
+
+        <div class="bio-text">
+          <p>Hey there! I'm Luke, a student at <strong>UF🐊</strong> headed into <strong>consulting</strong> in <strong>Boston📍</strong>! I love <strong>dark roast coffee</strong>, running with friends🏃, watching tv shows, thrifting, being outdoors🗻, and working hard on what I'm <strong>passionate</strong> about!</p>
+          <p>You can often find me <strong>yapping</strong> at a coffee shop, at a <strong>run club</strong>, sleeping, munching on some tasty nutritious food😋🍎, watching man united, giving my <strong>B Corp</strong> pitch, or working on something random. 😦</p>
+          <p>I'm also from <strong>Philly</strong>...<strong>go birds!</strong>🦅</p>
+          <p>That's just a little bit about me; you can find more if you scroll down a bit here on my <strong>diary</strong>, err... website? Just made this for fun, hope you get to know me and <strong>enjoy!</strong> 😁</p>
+        </div>
+
+        <nav class="bio-links">
+          <a href="https://www.linkedin.com/in/luke-nevins" class="bio-link">LinkedIn</a>
+          <a href="https://www.instagram.com/lukenev67" class="bio-link">Instagram</a>
+          <a href="mailto:luketnevins@gmail.com" class="bio-link">Wanna get in touch?!</a>
+        </nav>
+
+        <div class="sticky-note">
+          <p>for my professional side, head to my LinkedIn</p>
+        </div>
+
+      </div>
+    </aside>
+
+    <!-- ═══════════════ CONTENT AREA ═══════════════ -->
+    <main class="content-area">
+
+      <div id="card-grid" class="card-grid">
+
+        <!-- ROW 0 — hero (span 3) -->
+        <article class="card card--hero">
+          <p class="card__label">Currently working on...</p>
+          <p class="hero-typing">
+            <span id="hero-text"></span><span id="hero-cursor" class="cursor">|</span>
+          </p>
+        </article>
+
+        <!-- ROW 1 — Coffee(1) + On Repeat(2) -->
+        <article class="card card--small" data-animate>
+          <p class="card__label">coffee order</p>
+          <p class="card__punchy">Wawa Cuban Roast<br>+ cinnamon</p>
+          <p class="card__sub">cheap. simple. delicious.</p>
+        </article>
+
+        <article class="card card--normal" data-animate>
+          <p class="card__label">on repeat</p>
+          <div class="tag-cloud">
+            <span class="tag">Harry Styles</span>
+            <span class="tag">Olivia Dean</span>
+            <span class="tag">Noah Kahan</span>
+            <span class="tag">Renee Rapp</span>
+            <span class="tag">Lizzy McAlpine</span>
+            <span class="tag">Lorde</span>
+            <span class="tag">Declan McKenna</span>
+            <span class="tag">Lana Del Rey</span>
+            <span class="tag">Olivia Rodrigo</span>
+            <span class="tag">Zach Bryan</span>
+            <span class="tag">Baby Keem</span>
+            <span class="tag">Kendrick Lamar</span>
+          </div>
+        </article>
+
+        <!-- ROW 2 — Currently Watching(1) + All-Time Favorites(2) -->
+        <article class="card card--small" data-animate>
+          <p class="card__label">currently watching</p>
+          <ul class="card__list">
+            <li>
+              <span class="list-prefix">▸</span>
+              <span><strong>3 Body Problem</strong><br><span class="card__note">sci-fi that makes my brain hurt (in a good way)</span></span>
+            </li>
+            <li>
+              <span class="list-prefix">▸</span>
+              <span><strong>Paradise</strong><br><span class="card__note">dystopian, confusing right?</span></span>
+            </li>
+          </ul>
+        </article>
+
+        <article class="card card--normal" data-animate>
+          <p class="card__label">all-time favorites</p>
+          <ul class="card__list card__list--typed">
+            <li><span class="list-type">Movie</span><span class="list-value">Dead Poets Society</span></li>
+            <li><span class="list-type">TV Show</span><span class="list-value">The Day of the Jackal</span></li>
+            <li><span class="list-type">Food</span><span class="list-value">Sugar Snap Peas</span></li>
+            <li><span class="list-type">Dish</span><span class="list-value">Smoked Salmon Bagel</span></li>
+            <li><span class="list-type">Place</span><span class="list-value">Valley Forge National Park</span></li>
+            <li><span class="list-type">Book</span><span class="list-value">Ultra-Processed People</span></li>
+          </ul>
+        </article>
+
+        <!-- PHOTO BREAK P1 — me & friends!(2) + munch!(1) -->
+        <article class="card card--normal" data-animate>
+          <img src="Picsss/me%20%26%20friends!.JPG" alt="me &amp; friends!" class="card__photo">
+          <p class="card__caption">me &amp; friends!</p>
+        </article>
+
+        <article class="card card--small" data-animate>
+          <img src="Picsss/munch!.JPEG" alt="munch!" class="card__photo card__photo--square">
+          <p class="card__caption">munch!</p>
+        </article>
+
+        <!-- ROW 3+4 — Movement Menu(2) | Grocery tall(1) / Book Recs(2) | Grocery cont. -->
+        <article class="card card--normal" data-animate>
+          <p class="card__label">movement menu</p>
+          <div class="tag-cloud tag-cloud--activities">
+            <span class="activity-tag" data-detail="5k's and 10k's, loving a good zone 2 run">running</span>
+            <span class="activity-tag" data-detail="chest, back, arms and legs (sometimes)">lifting</span>
+            <span class="activity-tag" data-detail="class or just doing downward dog randomly">yoga</span>
+            <span class="activity-tag" data-detail="whenever I can get a ball at my feet">soccer</span>
+            <span class="activity-tag" data-detail="when it's nice out">hiking</span>
+            <span class="activity-tag" data-detail="getting into these classes">cycling</span>
+          </div>
+        </article>
+
+        <article class="card card--small card--tall" data-animate>
+          <p class="card__label">this week's grocery list</p>
+          <ul class="checklist" id="grocery-checklist">
+            <li class="checklist__item"><button class="checklist__btn" aria-pressed="false" data-key="0">Vanilla Almond MALK</button></li>
+            <li class="checklist__item"><button class="checklist__btn" aria-pressed="false" data-key="1">Whole Foods Heritage Grain Sourdough</button></li>
+            <li class="checklist__item"><button class="checklist__btn" aria-pressed="false" data-key="2">Sugar Snap Peas (obv)</button></li>
+            <li class="checklist__item"><button class="checklist__btn" aria-pressed="false" data-key="3">PBfit Powder</button></li>
+            <li class="checklist__item"><button class="checklist__btn" aria-pressed="false" data-key="4">Tofu</button></li>
+            <li class="checklist__item"><button class="checklist__btn" aria-pressed="false" data-key="5">Protein Pasta</button></li>
+            <li class="checklist__item"><button class="checklist__btn" aria-pressed="false" data-key="6">Everything But the Bagel Seasoning</button></li>
+            <li class="checklist__item"><button class="checklist__btn" aria-pressed="false" data-key="7">Sriracha</button></li>
+            <li class="checklist__item"><button class="checklist__btn" aria-pressed="false" data-key="8">Dry Roasted Edamame &amp; Chickpeas</button></li>
+            <li class="checklist__item"><button class="checklist__btn" aria-pressed="false" data-key="9">Carrot Sticks</button></li>
+            <li class="checklist__item"><button class="checklist__btn" aria-pressed="false" data-key="10">Broccoli</button></li>
+          </ul>
+          <p class="card__footer-note">high-protein, high-fiber, pesketarian life</p>
+        </article>
+
+        <article class="card card--normal" data-animate>
+          <p class="card__label">book recs</p>
+          <ul class="card__list card__list--books">
+            <li>
+              <span class="list-prefix">📖</span>
+              <span><span class="list-value">The Vegetarian</span><br><span class="card__note">Han Kang</span></span>
+            </li>
+            <li>
+              <span class="list-prefix">📖</span>
+              <span><span class="list-value">The Sense of an Ending</span><br><span class="card__note">Julian Barnes</span></span>
+            </li>
+            <li>
+              <span class="list-prefix">📖</span>
+              <span><span class="list-value">Terrible Humans</span><br><span class="card__note">Shane Mauss</span></span>
+            </li>
+            <li>
+              <span class="list-prefix">📖</span>
+              <span><span class="list-value">Food for Life</span><br><span class="card__note">Tim Spector</span></span>
+            </li>
+            <li>
+              <span class="list-prefix">📖</span>
+              <span><span class="list-value">The Alternative</span><br><span class="card__note">Nick Romeo</span></span>
+            </li>
+            <li>
+              <span class="list-prefix">📖</span>
+              <span><span class="list-value">Extreme Ownership</span><br><span class="card__note">Jocko Willink</span></span>
+            </li>
+          </ul>
+        </article>
+
+        <!-- PHOTO BREAK P2 — fav running spot(2) + Go Birds!(1) -->
+        <article class="card card--normal" data-animate>
+          <img src="Picsss/favorite%20running%20spot%20ever%20-%20hyde%20park.jpeg" alt="favorite running spot ever - hyde park" class="card__photo">
+          <p class="card__caption">favorite running spot ever - hyde park</p>
+        </article>
+
+        <article class="card card--small" data-animate>
+          <img src="Picsss/Go%20Birds!.JPEG" alt="Go Birds!" class="card__photo">
+          <p class="card__caption">Go Birds!</p>
+        </article>
+
+        <!-- ROW 5 — Podcasts(3) -->
+        <article class="card card--wide" data-animate>
+          <p class="card__label">podcasts</p>
+          <div class="podcast-feature">
+            <p class="podcast-feature__name">Morning Brew Daily</p>
+            <p class="podcast-feature__note">how I pretend to be informed before 9am</p>
+          </div>
+          <ul class="card__list card__list--compact">
+            <li><span class="list-prefix">🎙</span>Pod Save America</li>
+            <li><span class="list-prefix">🎙</span>Within Reason — Alex O'Connor</li>
+            <li><span class="list-prefix">🎙</span>How Is This Better? — COURIER</li>
+            <li><span class="list-prefix">🎙</span>Get Down to Business: The B Corp Podcast</li>
+            <li><span class="list-prefix">🎙</span>Beyond the B — LIFT Economy</li>
+            <li><span class="list-prefix">🎙</span>Binchtopia</li>
+          </ul>
+        </article>
+
+        <!-- ROW 6 — On the Menu(2) + Slop Bowl(1) -->
+        <article class="card card--normal" data-animate>
+          <p class="card__label">on the menu</p>
+          <ul class="card__list">
+            <li>
+              <span class="list-prefix">🍽</span>
+              <span>My pasta with tofu, marinara, and parmesan sauce<span class="card__note"> — it's good, trust</span></span>
+            </li>
+            <li><span class="list-prefix">🍽</span>Salmon salad bowl</li>
+            <li><span class="list-prefix">🍽</span>Rice cakes with greek yogurt and pomegranate</li>
+            <li><span class="list-prefix">🍽</span>High-protein overnight oats</li>
+          </ul>
+        </article>
+
+        <article class="card card--small" data-animate>
+          <p class="card__label">favorite slop bowl</p>
+          <p class="card__punchy">CAVA</p>
+          <p class="card__sub">chicken + sweet potato with harissa and red pepper hummus.</p>
+        </article>
+
+        <!-- PHOTO BREAK P3 — Milini - Croatia(2) + reading(1) -->
+        <article class="card card--normal" data-animate>
+          <img src="Picsss/Milini%20-%20Croatia.jpeg" alt="Milini - Croatia" class="card__photo">
+          <p class="card__caption">Milini - Croatia</p>
+        </article>
+
+        <article class="card card--small" data-animate>
+          <img src="Picsss/reading%20(i%20swear%20i%20was%20actually%20reading).JPEG" alt="reading (i swear i was actually reading)" class="card__photo card__photo--portrait">
+          <p class="card__caption">reading (i swear i was actually reading)</p>
+        </article>
+
+        <!-- ROW 7 — Favorite Places(2) + Watchlist(1) -->
+        <article class="card card--normal" data-animate>
+          <p class="card__label">favorite places</p>
+          <ul class="card__list">
+            <li><span class="list-prefix">📍</span>Valley Forge National Park</li>
+            <li><span class="list-prefix">📍</span>Mad Anthony Wayne Cafe</li>
+            <li><span class="list-prefix">📍</span>Depot Park</li>
+            <li><span class="list-prefix">📍</span>Camden, Maine</li>
+            <li><span class="list-prefix">📍</span>Split, Croatia</li>
+            <li><span class="list-prefix">📍</span>Boston!</li>
+            <li><span class="list-prefix">📍</span>My bed</li>
+          </ul>
+        </article>
+
+        <article class="card card--small" data-animate>
+          <p class="card__label">watchlist</p>
+          <ul class="card__list">
+            <li><span class="list-prefix">🎬</span>Oppenheimer</li>
+            <li><span class="list-prefix">🎬</span>Fight Club</li>
+            <li><span class="list-prefix">🎬</span>Black Swan</li>
+            <li><span class="list-prefix">🎬</span>Inception</li>
+          </ul>
+          <p class="card__footer-note">will get to these... eventually</p>
+        </article>
+
+        <!-- PHOTO BREAK P4 — .5 travels(2) + coffee shop amsterdam(1) -->
+        <article class="card card--normal" data-animate>
+          <img src="Picsss/.5%20travels.jpeg" alt=".5 travels" class="card__photo">
+          <p class="card__caption">.5 travels</p>
+        </article>
+
+        <article class="card card--small" data-animate>
+          <img src="Picsss/me%20%26%20my%20coffee%20shop%20in%20amsterdam!.JPEG" alt="me &amp; my coffee shop in amsterdam!" class="card__photo card__photo--square">
+          <p class="card__caption">me &amp; my coffee shop in amsterdam!</p>
+        </article>
+
+        <!-- ROW A — Bucketlist(2) + LinkedIn Game(1) -->
+        <article class="card card--normal" data-animate>
+          <p class="card__label">on the bucketlist</p>
+          <ul class="card__list">
+            <li><span class="list-prefix">🌲</span>Every national park</li>
+            <li><span class="list-prefix">🚐</span>Living in a van</li>
+            <li><span class="list-prefix">🏃</span>Running a marathon (eventually)</li>
+            <li><span class="list-prefix">☕</span>Owning a coffee shop x thrift store</li>
+          </ul>
+        </article>
+
+        <article class="card card--small" data-animate>
+          <p class="card__label">favorite linkedin game</p>
+          <p class="card__punchy">Queens 👸</p>
+          <p class="card__sub">best game ever.</p>
+        </article>
+
+        <!-- ROW B — Gear I Swear By(2) + What I'm Passionate About(1) -->
+        <article class="card card--normal" data-animate>
+          <p class="card__label">gear i swear by</p>
+          <p class="card__sub" style="margin-bottom:8px;">all of it is blue</p>
+          <ul class="card__list">
+            <li><span class="list-prefix">💻</span>Lenovo Yoga i9</li>
+            <li><span class="list-prefix">📱</span>Walli phone cases</li>
+            <li><span class="list-prefix">👟</span>Nike Pegasus 41's</li>
+            <li><span class="list-prefix">🎧</span>Bose QuietComfort</li>
+            <li><span class="list-prefix">⌚</span>Apple Watch SE</li>
+            <li><span class="list-prefix">💧</span>Owalas</li>
+            <li><span class="list-prefix">🖥</span>ForHelp second monitor</li>
+            <li><span class="list-prefix">🫧</span>Burt's Bees</li>
+          </ul>
+        </article>
+
+        <article class="card card--small" data-animate>
+          <p class="card__label">what i'm passionate about</p>
+          <p class="card__punchy">B Corps!</p>
+          <p class="card__sub">Using business as a force for good.</p>
+          <a href="https://www.bcorporation.net/en-us/" target="_blank" style="display:inline-block; margin-top:10px; padding:4px 12px; border-radius:999px; border:1px solid rgba(15,26,46,0.15); background:rgba(15,26,46,0.04); font-size:0.78rem; color:var(--text-muted); text-decoration:none;">bcorporation.net →</a>
+        </article>
+
+        <!-- PHOTO BREAK P5 — i like to do races(2) + Best meal(1) -->
+        <article class="card card--normal" data-animate>
+          <img src="Picsss/i%20like%20to%20do%20races%20sometimes.jpeg" alt="i like to do races sometimes" class="card__photo">
+          <p class="card__caption">i like to do races sometimes</p>
+        </article>
+
+        <article class="card card--small" data-animate>
+          <img src="Picsss/Best%20meal%20i've%20ever%20had.jpeg" alt="Best meal i've ever had" class="card__photo card__photo--square">
+          <p class="card__caption">Best meal i've ever had</p>
+        </article>
+
+        <!-- ROW 8 — On the Horizon(1) + Favorite Color(2) -->
+        <article class="card card--small" data-animate>
+          <p class="card__label">on the horizon</p>
+          <ul class="card__list">
+            <li><span class="list-prefix">🔭</span>March Madness (go gators 🐊)</li>
+            <li><span class="list-prefix">🔭</span>Moving to Boston for the summer!</li>
+            <li><span class="list-prefix">🔭</span>Trip to New York</li>
+          </ul>
+        </article>
+
+        <article class="card card--normal" data-animate>
+          <p class="card__label">favorite color</p>
+          <div class="swatch-grid">
+            <div class="swatch" style="background:#0a1628"></div>
+            <div class="swatch" style="background:#0f1a2e"></div>
+            <div class="swatch" style="background:#1a2744"></div>
+            <div class="swatch" style="background:#243b6e"></div>
+            <div class="swatch" style="background:#2c4a82"></div>
+            <div class="swatch" style="background:#3b5ea6"></div>
+            <div class="swatch" style="background:#4a72c4"></div>
+            <div class="swatch" style="background:#5b8def"></div>
+            <div class="swatch" style="background:#7aa4f2"></div>
+            <div class="swatch" style="background:#9bb9f5"></div>
+            <div class="swatch" style="background:#b8cff8"></div>
+            <div class="swatch" style="background:#d4e3fc"></div>
+          </div>
+          <p class="card__caption">Can you guess?</p>
+        </article>
+
+        <!-- ROW 9 — Walks & Hikes(2) + little meee(1) -->
+        <article class="card card--normal" data-animate>
+          <p class="card__label">walks &amp; hikes</p>
+          <p class="card__caption">decompression therapy.</p>
+        </article>
+
+        <article class="card card--small" data-animate>
+          <img src="Picsss/little%20meee.JPEG" alt="little meee" class="card__photo card__photo--portrait">
+          <p class="card__caption">little meee</p>
+        </article>
+
+        <!-- PHOTO BREAK P6 — go gators! post natty(2) + coffee shop london(1) -->
+        <article class="card card--normal" data-animate>
+          <img src="Picsss/go%20gators!%20(post%20natty).JPEG" alt="go gators! (post natty)" class="card__photo">
+          <p class="card__caption">go gators! (post natty)</p>
+        </article>
+
+        <article class="card card--small" data-animate>
+          <img src="Picsss/find%20me%20in%20a%20coffee%20shop%20in%20london....jpeg" alt="find me in a coffee shop in london..." class="card__photo card__photo--square">
+          <p class="card__caption">find me in a coffee shop in london...</p>
+        </article>
+
+        <!-- ROWS 10-11 — With People I Love (wide + tall) -->
+        <article class="card card--wide card--tall" data-animate>
+          <p class="card__label">with people i love</p>
+          <img src="Picsss/fam%20%26%20i!.JPG" alt="fam &amp; i!" class="card__photo card__photo--fill">
+          <p class="card__caption">the best part of all of this.</p>
+        </article>
+
+        <!-- ROW 12 — Things That Make Me Happy (wide) -->
+        <article class="card card--wide card--dark" data-animate>
+          <p class="card__label">things that make me happy</p>
+          <div class="tag-cloud tag-cloud--large">
+            <span class="tag tag--light">family dinners</span>
+            <span class="tag tag--light">farmers markets</span>
+            <span class="tag tag--light">a good podcast on a long walk</span>
+            <span class="tag tag--light">when code runs on the first try</span>
+            <span class="tag tag--light">my dad's coffee</span>
+            <span class="tag tag--light">sugar snap peas straight from the bag</span>
+            <span class="tag tag--light">finding that item you've been wanting in a thrift store</span>
+            <span class="tag tag--light">getting #1 on the queens</span>
+          </div>
+        </article>
+
+      </div><!-- /#card-grid -->
+
+      <footer class="site-footer">
+        built by luke, powered by claude code &amp; too much coffee.
+      </footer>
+
+    </main>
+
+  </div><!-- /.site-wrapper -->
+
+  <script src="script.js"></script>
+</body>
+</html>
