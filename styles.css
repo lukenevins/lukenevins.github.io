@@ -252,6 +252,22 @@ a:hover {
 .card--small  { grid-column: span 1; }
 .card--tall   { grid-row: span 2; }
 
+/* ── Frameless Card (photo-only, no box) ─── */
+.card--frameless {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+.card--frameless:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.card--frameless .card__photo {
+  margin-bottom: 6px;
+}
+
 /* ── Dark (highlight) Card — Things That Make Me Happy ── */
 .card--dark {
   background: #243b6e;
