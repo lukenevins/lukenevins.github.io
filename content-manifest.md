@@ -71,9 +71,10 @@ for my professional side, head to my LinkedIn
 ### 2 · On Repeat (12 artists)
 Harry Styles, Olivia Dean, Noah Kahan, Renee Rapp, Lizzy McAlpine, Lorde, Declan McKenna, Lana Del Rey, Olivia Rodrigo, Zach Bryan, Baby Keem, Kendrick Lamar
 
-### 3 · Currently Watching
+### 3 · Currently Watching/Reading
 - 3 Body Problem — sci-fi that makes my brain hurt (in a good way)
 - Paradise — dystopian, confusing right?
+- The Catcher in the Rye
 
 ### 4 · All-Time Favorites
 - Movie → Dead Poets Society
@@ -90,8 +91,9 @@ Harry Styles, Olivia Dean, Noah Kahan, Renee Rapp, Lizzy McAlpine, Lorde, Declan
 - soccer — whenever I can get a ball at my feet ⚽
 - hiking — when it's nice out
 - cycling — getting into classes 🚲
+- climbing - watch me fall
 
-### 6 · Currently Reading
+### 6 · Favorite Book
 - placeholder: book cover photo
 - title: Ultra-Processed People
 - author: Chris van Tulleken
@@ -145,7 +147,6 @@ Harry Styles, Olivia Dean, Noah Kahan, Renee Rapp, Lizzy McAlpine, Lorde, Declan
 - Camden, Maine
 - Split, Croatia
 - Boston!
-- My bed
 
 ### 13 · Favorite LinkedIn Game
 - punchy: Queens 👸
@@ -166,7 +167,7 @@ Harry Styles, Olivia Dean, Noah Kahan, Renee Rapp, Lizzy McAlpine, Lorde, Declan
 - Oppenheimer
 - Fight Club
 - Black Swan
-- Inception
+- Inception (finally watched this... SO GOOD)
 - footer: will get to these... eventually
 
 ### 13 Gear I swear by: (all of it is blue)
@@ -180,9 +181,10 @@ Harry Styles, Olivia Dean, Noah Kahan, Renee Rapp, Lizzy McAlpine, Lorde, Declan
 - Burt's Bees
 
 ### 14 · On the Horizon
-- March Madness (go gators 🐊)
 - Moving to Boston for the summer!
 - Trip to New York
+- WORLD CUPPP
+- Finishing finals and GOING HOME
 
 ### 15 · Favorite Color (NEW)
 swatches (12 blues, dark → light):
@@ -192,10 +194,6 @@ caption: Can you guess?
 ### 16 · With People I Love
 - placeholder: group photo
 - caption: the best part of all of this.
-
-### 17 · Walks & Hikes
-- placeholder: nature/trail photo
-- caption: decompression therapy.
 
 ### 18 · Things That Make Me Happy
 family dinners, farmers markets, a good podcast on a long walk, when code runs on the first try, my dad's coffee, sugar snap peas straight from the bag, finding that item you've been wanting in a thrift store, getting #1 on the queens
